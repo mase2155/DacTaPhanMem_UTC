@@ -1,0 +1,9 @@
+#BlueJ class context
+#Fri Nov 06 04:44:50 ICT 2026
+comment0.target=Motoren
+comment0.text=O to con (vi du them loai xe khac).
+comment1.params=product carType
+comment1.target=Motoren(Product, java.lang.String)
+comment2.target=void assemble()
+comment3.target=void produceProduct()
+numComments=4

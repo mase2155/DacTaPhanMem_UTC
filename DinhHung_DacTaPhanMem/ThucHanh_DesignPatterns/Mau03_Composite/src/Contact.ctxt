@@ -1,0 +1,13 @@
+#BlueJ class context
+#Fri Nov 06 04:41:08 ICT 2026
+comment0.target=Contact
+comment0.text=\r\n Component\: dia chi lien lac (ca nhan hoac nhom).\r\n
+comment1.target=java.lang.String getName()
+comment2.params=subject body
+comment2.target=void sendMail(java.lang.String, java.lang.String)
+comment3.params=child
+comment3.target=void add(Contact)
+comment4.params=child
+comment4.target=void remove(Contact)
+comment5.target=java.util.List getMembers()
+numComments=6

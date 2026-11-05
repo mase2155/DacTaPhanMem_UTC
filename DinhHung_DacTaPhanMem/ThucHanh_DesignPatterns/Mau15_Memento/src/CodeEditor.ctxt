@@ -1,0 +1,16 @@
+#BlueJ class context
+#Fri Nov 06 05:19:32 ICT 2026
+comment0.target=CodeEditor
+comment0.text=Originator\: lap trinh vien thu nghiem nhieu phien ban code.
+comment1.params=initialCode careTaker
+comment1.target=CodeEditor(java.lang.String, CareTaker)
+comment2.params=code
+comment2.target=void setCode(java.lang.String)
+comment3.target=java.lang.String getCode()
+comment4.params=name
+comment4.target=void createSavepoint(java.lang.String)
+comment5.target=void undoLast()
+comment6.params=savepointName
+comment6.target=void restore(java.lang.String)
+comment7.target=java.lang.String toString()
+numComments=8

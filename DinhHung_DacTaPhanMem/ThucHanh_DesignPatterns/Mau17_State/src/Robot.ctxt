@@ -1,0 +1,10 @@
+#BlueJ class context
+#Fri Nov 06 05:25:17 ICT 2026
+comment0.target=Robot
+comment1.params=state
+comment1.target=void setState(RoboticState)
+comment2.target=void walk()
+comment3.target=void cook()
+comment4.target=void keepWarm()
+comment5.target=void off()
+numComments=6

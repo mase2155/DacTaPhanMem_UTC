@@ -1,0 +1,15 @@
+#BlueJ class context
+#Fri Nov 06 05:22:15 ICT 2026
+comment0.target=FormInsertTemplate
+comment0.text=\r\n Template Method\: khung nhap mot ban ghi moi vao bang.\r\n
+comment1.target=void nhapBanGhiMoi()
+comment10.target=void inThanhCong()
+comment2.target=void ketNoiCSDL()
+comment3.target=void xacThucNguoiDung()
+comment4.target=void moPhien()
+comment5.target=void moBang()
+comment6.target=void taoBanGhiMoi()
+comment7.target=void insertVaCommit()
+comment8.target=void dongPhien()
+comment9.target=void dongCSDL()
+numComments=11

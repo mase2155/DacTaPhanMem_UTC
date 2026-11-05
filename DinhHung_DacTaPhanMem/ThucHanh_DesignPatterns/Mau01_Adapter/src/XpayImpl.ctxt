@@ -1,0 +1,25 @@
+#BlueJ class context
+#Fri Nov 06 04:30:47 ICT 2026
+comment0.target=XpayImpl
+comment1.target=java.lang.String getCreditCardNo()
+comment10.params=ten
+comment10.target=void setTen(java.lang.String)
+comment11.params=cardExpMonth
+comment11.target=void setCardExpMonth(java.lang.String)
+comment12.params=cardExpYear
+comment12.target=void setCardExpYear(java.lang.String)
+comment13.params=cardCVVNo
+comment13.target=void setCardCVVNo(java.lang.Short)
+comment14.params=amount
+comment14.target=void setAmount(java.lang.Double)
+comment2.target=java.lang.String getHoDem()
+comment3.target=java.lang.String getTen()
+comment4.target=java.lang.String getCardExpMonth()
+comment5.target=java.lang.String getCardExpYear()
+comment6.target=java.lang.Short getCardCVVNo()
+comment7.target=java.lang.Double getAmount()
+comment8.params=creditCardNo
+comment8.target=void setCreditCardNo(java.lang.String)
+comment9.params=hoDem
+comment9.target=void setHoDem(java.lang.String)
+numComments=15

@@ -1,0 +1,11 @@
+#BlueJ class context
+#Fri Nov 06 05:00:32 ICT 2026
+comment0.target=AbstractHandler
+comment1.params=tenBoPhan
+comment1.target=AbstractHandler(java.lang.String)
+comment2.params=next
+comment2.target=void setNext(Handler)
+comment3.target=java.lang.String getTenBoPhan()
+comment4.params=request
+comment4.target=void chuyenTiep(ServiceRequest)
+numComments=5

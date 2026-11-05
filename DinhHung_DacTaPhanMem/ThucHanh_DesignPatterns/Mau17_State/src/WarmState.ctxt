@@ -1,0 +1,14 @@
+#BlueJ class context
+#Fri Nov 06 05:25:17 ICT 2026
+comment0.target=WarmState
+comment0.text=Trang thai Warm\: giu nong \u2014 khong walk; co the cook hoac off.
+comment1.params=robot
+comment1.target=void walk(Robot)
+comment2.params=robot
+comment2.target=void cook(Robot)
+comment3.params=robot
+comment3.target=void keepWarm(Robot)
+comment4.params=robot
+comment4.target=void off(Robot)
+comment5.target=java.lang.String tenTrangThai()
+numComments=6

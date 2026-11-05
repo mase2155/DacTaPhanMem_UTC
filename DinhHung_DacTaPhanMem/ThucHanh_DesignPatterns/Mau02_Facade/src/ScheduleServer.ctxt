@@ -1,0 +1,17 @@
+#BlueJ class context
+#Fri Nov 06 04:34:35 ICT 2026
+comment0.target=ScheduleServer
+comment0.text=\r\n He thong phuc tap (may chu / CSDL)\: nhieu buoc start va stop.\r\n
+comment1.target=void startBooting()
+comment10.target=void destoryListeners()
+comment11.target=void destoryContext()
+comment12.target=void shutdown()
+comment2.target=void readSystemConfigFile()
+comment3.target=void init()
+comment4.target=void initializeContext()
+comment5.target=void initializeListeners()
+comment6.target=void createSystemObjects()
+comment7.target=void releaseProcesses()
+comment8.target=void destory()
+comment9.target=void destroySystemObjects()
+numComments=13

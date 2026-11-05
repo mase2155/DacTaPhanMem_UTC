@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 05:04:52 ICT 2026
+comment0.target=Code
+comment0.text=Trang thai ngoai (extrinsic)\: noi dung ma nguon moi lan chay.
+comment1.target=java.lang.String getSource()
+comment2.params=source
+comment2.target=void setSource(java.lang.String)
+numComments=3

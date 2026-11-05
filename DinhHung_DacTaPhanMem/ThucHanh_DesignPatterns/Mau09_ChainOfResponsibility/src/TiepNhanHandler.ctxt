@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 05:00:32 ICT 2026
+comment0.target=TiepNhanHandler
+comment0.text=Buoc dau\: tiep nhan, xep hang doi, chuyen vao day chain.
+comment1.target=TiepNhanHandler()
+comment2.params=request
+comment2.target=void handle(ServiceRequest)
+numComments=3

@@ -1,0 +1,11 @@
+#BlueJ class context
+#Fri Nov 06 05:10:52 ICT 2026
+comment0.target=HocPhan
+comment0.text=Mon hoc / hoc phan (khoa trong HashTable quyen).
+comment1.params=ma ten
+comment1.target=HocPhan(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getMa()
+comment3.target=java.lang.String getTen()
+comment4.target=HocPhan copy()
+comment5.target=java.lang.String toString()
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+#Fri Nov 06 05:19:32 ICT 2026
+comment0.target=CareTaker
+comment1.params=memento name
+comment1.target=void save(CodeMemento, java.lang.String)
+comment2.params=name
+comment2.target=CodeMemento get(java.lang.String)
+comment3.target=void clear()
+numComments=4

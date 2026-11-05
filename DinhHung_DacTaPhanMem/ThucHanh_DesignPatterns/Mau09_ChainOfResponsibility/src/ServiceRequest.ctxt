@@ -1,0 +1,9 @@
+#BlueJ class context
+#Fri Nov 06 05:00:32 ICT 2026
+comment0.target=ServiceRequest
+comment0.text=Ho so yeu cau dich vu cong (mot cua).
+comment1.params=loai moTa
+comment1.target=ServiceRequest(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getLoai()
+comment3.target=java.lang.String getMoTa()
+numComments=4

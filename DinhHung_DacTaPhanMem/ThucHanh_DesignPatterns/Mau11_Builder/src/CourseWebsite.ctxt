@@ -1,0 +1,18 @@
+#BlueJ class context
+#Fri Nov 06 05:07:27 ICT 2026
+comment0.target=CourseWebsite
+comment0.text=San pham\: website mon hoc.
+comment1.params=tenMon
+comment1.target=CourseWebsite(java.lang.String)
+comment2.params=deCuong
+comment2.target=void setDeCuong(java.lang.String)
+comment3.params=baiGiang
+comment3.target=void setBaiGiang(java.lang.String)
+comment4.params=thucHanh
+comment4.target=void setThucHanh(java.lang.String)
+comment5.params=baiTap
+comment5.target=void setBaiTap(java.lang.String)
+comment6.params=danhGia
+comment6.target=void setDanhGia(java.lang.String)
+comment7.target=java.lang.String toString()
+numComments=8

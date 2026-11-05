@@ -1,0 +1,15 @@
+#BlueJ class context
+#Fri Nov 06 05:10:52 ICT 2026
+comment0.target=DanhSachDangKy
+comment0.text=\r\n Danh sach hoc phan mac dinh cua lop \u2014 clone sau (deep) cho tung sinh vien.\r\n
+comment1.params=tenLop
+comment1.target=DanhSachDangKy(java.lang.String)
+comment2.params=hp thaoTac
+comment2.target=void themHocPhan(HocPhan, java.lang.String)
+comment3.params=hp thaoTac
+comment3.target=void themMonTuChon(HocPhan, java.lang.String)
+comment4.target=java.lang.String getTenLop()
+comment5.target=java.util.List getHocPhanList()
+comment6.target=DanhSachDangKy deepClone()
+comment7.target=java.lang.String toString()
+numComments=8

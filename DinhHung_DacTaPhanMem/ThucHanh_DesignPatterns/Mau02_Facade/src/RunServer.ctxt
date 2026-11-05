@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Nov 06 04:34:35 ICT 2026
+comment0.target=RunServer
+comment0.text=\r\n (Tuy chon) Client KHONG dung Facade \u2014 goi tung buoc tren ScheduleServer.\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

@@ -1,0 +1,9 @@
+#BlueJ class context
+#Fri Nov 06 05:16:45 ICT 2026
+comment0.target=TuanDanhGiaService
+comment0.text=Su dung Abstract Factory de cham ca 3 loai bai trong tuan.
+comment1.params=factory
+comment1.target=TuanDanhGiaService(AbstractDanhGiaFactory)
+comment2.params=tenSV
+comment2.target=void chamTuan(java.lang.String)
+numComments=3

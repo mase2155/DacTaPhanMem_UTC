@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 05:19:32 ICT 2026
+comment0.target=CodeMemento
+comment0.text=Snapshot noi dung code tai mot thoi diem.
+comment1.params=code
+comment1.target=CodeMemento(java.lang.String)
+comment2.target=java.lang.String getCode()
+numComments=3

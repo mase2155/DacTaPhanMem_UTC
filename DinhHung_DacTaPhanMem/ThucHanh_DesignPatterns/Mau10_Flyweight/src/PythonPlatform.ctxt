@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 05:04:52 ICT 2026
+comment0.target=PythonPlatform
+comment0.text=Flyweight\: nen tang Python (chi tao mot lan trong factory).
+comment1.target=PythonPlatform()
+comment2.params=code
+comment2.target=void execute(Code)
+numComments=3

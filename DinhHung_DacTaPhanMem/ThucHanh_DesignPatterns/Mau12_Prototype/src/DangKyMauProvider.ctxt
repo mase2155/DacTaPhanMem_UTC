@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Nov 06 05:10:52 ICT 2026
+comment0.target=DangKyMauProvider
+comment0.text=Prototype registry\: mau dang ky mac dinh theo lop (chi tao mot lan).
+comment1.params=tenLop
+comment1.target=DanhSachDangKy layBanSao(java.lang.String)
+numComments=2

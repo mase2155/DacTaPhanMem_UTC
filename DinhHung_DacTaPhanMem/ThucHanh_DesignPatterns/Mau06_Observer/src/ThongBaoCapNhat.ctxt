@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Nov 06 04:52:12 ICT 2026
+comment0.target=ThongBaoCapNhat
+comment0.text=Cho phep Subject gui thong bao text moi.
+comment1.params=message
+comment1.target=void setMessage(java.lang.String)
+numComments=2

@@ -1,0 +1,15 @@
+#BlueJ class context
+#Fri Nov 06 04:55:20 ICT 2026
+comment0.target=WashingMediator
+comment0.text=\r\n Mediator\: dieu phoi can, van, suoi, motor \u2014 tinh muc nuoc theo kg.\r\n
+comment1.params=weightSensor valve heater motor
+comment1.target=WashingMediator(WeightSensor, Valve, Heater, Motor)
+comment2.target=void startCycle()
+comment3.params=kg
+comment3.target=void onClothesWeightMeasured(int)
+comment4.params=liters
+comment4.target=void fillWater(int)
+comment5.params=tempC
+comment5.target=void startHeating(int)
+comment6.target=void startWashing()
+numComments=7

@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 05:14:11 ICT 2026
+comment0.target=TiepNhanBaoCao
+comment0.text=\r\n Creator\: tiep nhan bao cao SV, factory method tao bo cham tuong ung.\r\n
+comment1.params=tenSV noiDung
+comment1.target=void xuLy(java.lang.String, java.lang.String)
+comment2.target=BaoCaoEvaluator taoBoDanhGia()
+numComments=3

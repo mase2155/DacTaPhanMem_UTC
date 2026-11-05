@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 05:27:25 ICT 2026
+comment0.target=DesignTeam
+comment1.params=strategy
+comment1.target=void setStrategy(DesignStrategy)
+comment2.params=tenDuAn
+comment2.target=void thucHienThietKe(java.lang.String)
+numComments=3

@@ -1,0 +1,11 @@
+#BlueJ class context
+#Fri Nov 06 04:52:12 ICT 2026
+comment0.target=SinhVienObserver
+comment0.text=Observer\: sinh vien nhan thong bao tu hoc phan.
+comment1.params=subject hoTen
+comment1.target=SinhVienObserver(Subject, java.lang.String)
+comment2.params=message
+comment2.target=void update(java.lang.String)
+comment3.target=void subscribe()
+comment4.target=void unSubscribe()
+numComments=5

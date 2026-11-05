@@ -1,0 +1,10 @@
+#BlueJ class context
+#Fri Nov 06 04:48:49 ICT 2026
+comment0.target=Singleton
+comment0.text=\r\n Chi mot doi tuong ket noi CSDL cho ca ung dung (Singleton).\r\n
+comment1.target=Singleton()
+comment2.target=Singleton getInstance()
+comment3.target=java.lang.String getConnectionInfo()
+comment4.params=sql
+comment4.target=void query(java.lang.String)
+numComments=5

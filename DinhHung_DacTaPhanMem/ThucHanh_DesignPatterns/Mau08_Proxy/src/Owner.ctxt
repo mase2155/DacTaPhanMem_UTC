@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 04:58:26 ICT 2026
+comment0.target=Owner
+comment1.target=boolean isOwner()
+comment2.params=proxy
+comment2.target=void setReportGenerator(ReportGeneratorProxy)
+comment3.target=java.lang.String generateDailyReport()
+numComments=4

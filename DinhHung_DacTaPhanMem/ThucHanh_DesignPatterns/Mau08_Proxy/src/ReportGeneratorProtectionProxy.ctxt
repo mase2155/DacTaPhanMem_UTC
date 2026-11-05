@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 04:58:26 ICT 2026
+comment0.target=ReportGeneratorProtectionProxy
+comment0.text=\r\n Protection Proxy\: chi Owner duoc xem bao cao.\r\n
+comment1.params=staff
+comment1.target=ReportGeneratorProtectionProxy(Staff)
+comment2.target=java.lang.String generateDailyReport()
+numComments=3

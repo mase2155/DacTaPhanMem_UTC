@@ -1,0 +1,11 @@
+#BlueJ class context
+#Fri Nov 06 04:41:08 ICT 2026
+comment0.target=IndividualContact
+comment0.text=\r\n Leaf\: mot ca nhan, mot dia chi email.\r\n
+comment1.params=name email
+comment1.target=IndividualContact(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getName()
+comment3.target=java.lang.String getEmail()
+comment4.params=subject body
+comment4.target=void sendMail(java.lang.String, java.lang.String)
+numComments=5

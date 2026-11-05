@@ -1,0 +1,25 @@
+#BlueJ class context
+#Fri Nov 06 04:30:47 ICT 2026
+comment0.target=XpayToPayDAdapter
+comment0.text=\r\n Adapter\: chuyen XPay (ho dem + ten) sang PayD (ho ten day du).\r\n
+comment1.params=xpay
+comment1.target=XpayToPayDAdapter(Xpay)
+comment10.params=cVVNo
+comment10.target=void setCVVNo(java.lang.Integer)
+comment11.params=totalAmount
+comment11.target=void setTotalAmount(java.lang.Double)
+comment12.target=void copyFromXpay()
+comment13.params=hoDem ten
+comment13.target=java.lang.String buildFullName(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getCustCardNo()
+comment3.target=java.lang.String getCardOwnerName()
+comment4.target=java.lang.String getCardExpMonthDate()
+comment5.target=java.lang.Integer getCVVNo()
+comment6.target=java.lang.Double getTotalAmount()
+comment7.params=custCardNo
+comment7.target=void setCustCardNo(java.lang.String)
+comment8.params=cardOwnerName
+comment8.target=void setCardOwnerName(java.lang.String)
+comment9.params=cardExpMonthDate
+comment9.target=void setCardExpMonthDate(java.lang.String)
+numComments=14

@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 04:44:50 ICT 2026
+comment0.target=GearLocking
+comment1.params=productName
+comment1.target=GearLocking(java.lang.String)
+comment2.target=java.lang.String productName()
+comment3.target=void produce()
+numComments=4

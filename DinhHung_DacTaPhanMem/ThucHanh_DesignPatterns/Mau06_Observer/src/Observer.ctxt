@@ -1,0 +1,8 @@
+#BlueJ class context
+#Fri Nov 06 04:52:12 ICT 2026
+comment0.target=Observer
+comment1.params=message
+comment1.target=void update(java.lang.String)
+comment2.target=void subscribe()
+comment3.target=void unSubscribe()
+numComments=4
