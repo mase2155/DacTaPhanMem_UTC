@@ -222,37 +222,37 @@ GO
 /* ---------- 5 ban ghi moi bang. Khoa ngoai tro toi ban ghi da co. ---------- */
 
 INSERT INTO dbo.DanhMuc (TenDanhMuc, MoTa) VALUES
-    (N'Sofa',            N'Ghe sofa phong khach'),
-    (N'Ban ghe',         N'Ban an va ghe an'),
-    (N'Giuong',          N'Giuong ngu'),
-    (N'Tu',              N'Tu quan ao, tu bep'),
-    (N'Den trang tri',   N'Den dung, den tha');
+    (N'Sofa',            N'Ghế sofa phòng khách'),
+    (N'Bàn ghế',         N'Bàn ăn và ghế ăn'),
+    (N'Giường',          N'Giường ngủ'),
+    (N'Tủ',              N'Tủ quần áo, tủ bếp'),
+    (N'Đèn trang trí',   N'Đèn đứng, đèn thả');
 GO
 
 INSERT INTO dbo.NhaCungCap (MaNCC, TenNhaCungCap, SoDienThoai, DiaChi, Email) VALUES
-    ('NCC-HP', N'Noi That Hoa Phat',  '02431001001', N'Ha Noi',    'hop@hoaphat.vn'),
-    ('NCC-DT', N'Go Duc Thanh',       '02831001002', N'Binh Duong','sales@ducthanh.vn'),
-    ('NCC-MA', N'Sofa Minh Anh',      '02431001003', N'Ha Noi',    'cskh@minhanh.vn'),
-    ('NCC-IT', N'Da that Italia',     '02831001004', N'TP HCM',    NULL),
-    ('NCC-PC', N'Den Phong Cach',     '02363100105', N'Da Nang',   'hello@phongcach.vn');
+    ('NCC-HP', N'Nội thất Hòa Phát',  '02431001001', N'Hà Nội',     'hop@hoaphat.vn'),
+    ('NCC-DT', N'Gỗ Đức Thành',       '02831001002', N'Bình Dương', 'sales@ducthanh.vn'),
+    ('NCC-MA', N'Sofa Minh Anh',      '02431001003', N'Hà Nội',     'cskh@minhanh.vn'),
+    ('NCC-IT', N'Da thật Italia',     '02831001004', N'TP HCM',     NULL),
+    ('NCC-PC', N'Đèn Phong Cách',     '02363100105', N'Đà Nẵng',    'hello@phongcach.vn');
 GO
 
 INSERT INTO dbo.SanPham
     (MaSP, TenSanPham, DanhMucID, NhaCungCapID, ChatLieu, KichThuoc, MauSac, DonGia, SoLuongTon, NgayNhap, DuongDanAnh)
 VALUES
-    ('SF-001', N'Sofa da 3 cho',     1, 3, N'Da that',        N'220x90x85 cm',  N'Nau',      15000000, 8,  '20261001', NULL),
-    ('SF-002', N'Sofa vai goc chu L', 1, 3, N'Vai',            N'260x160x85 cm', N'Xam',      12000000, 5,  '20261005', NULL),
-    ('BA-001', N'Ban an go soi 6 ghe', 2, 2, N'Go soi',         N'180x90x75 cm',  N'Nau nhat',  8500000, 6,  '20261008', NULL),
-    ('GI-001', N'Giuong ngu 1m8',      3, 2, N'Go oc cho',      N'200x180x110 cm',N'Nau dam',  18000000, 4,  '20261012', NULL),
-    ('TU-001', N'Tu ao 4 canh',        4, 1, N'Go cong nghiep', N'180x200x60 cm', N'Trang',     7200000, 10, '20261015', NULL);
+    ('SF-001', N'Sofa da 3 chỗ',      1, 3, N'Da thật',         N'220x90x85 cm',   N'Nâu',      15000000, 8,  '20261001', NULL),
+    ('SF-002', N'Sofa vải góc chữ L', 1, 3, N'Vải',             N'260x160x85 cm',  N'Xám',      12000000, 5,  '20261005', NULL),
+    ('BA-001', N'Bàn ăn gỗ sồi 6 ghế', 2, 2, N'Gỗ sồi',          N'180x90x75 cm',   N'Nâu nhạt',  8500000, 6,  '20261008', NULL),
+    ('GI-001', N'Giường ngủ 1m8',      3, 2, N'Gỗ óc chó',       N'200x180x110 cm', N'Nâu đậm',  18000000, 4,  '20261012', NULL),
+    ('TU-001', N'Tủ áo 4 cánh',        4, 1, N'Gỗ công nghiệp',  N'180x200x60 cm',  N'Trắng',     7200000, 10, '20261015', NULL);
 GO
 
 INSERT INTO dbo.KhachHang (HoTen, SoDienThoai, DiaChi, Email) VALUES
-    (N'Nguyen Van An',  '0903123456', N'Cau Giay, Ha Noi',     'an.nguyen@mail.com'),
-    (N'Tran Thi Binh',  '0918234567', N'Le Chan, Hai Phong',   'binh.tran@mail.com'),
-    (N'Le Van Cuong',   '0988123456', N'Hai Chau, Da Nang',    NULL),
-    (N'Pham Thi Dung',  '0977123456', N'Phu Nhuan, TP HCM',    'dung.pham@mail.com'),
-    (N'Hoang Van Em',   '0966123456', N'Thu Duc, TP HCM',      'em.hoang@mail.com');
+    (N'Nguyễn Văn An',  '0903123456', N'Cầu Giấy, Hà Nội',    'an.nguyen@mail.com'),
+    (N'Trần Thị Bình',  '0918234567', N'Lê Chân, Hải Phòng',  'binh.tran@mail.com'),
+    (N'Lê Văn Cường',   '0988123456', N'Hải Châu, Đà Nẵng',   NULL),
+    (N'Phạm Thị Dung',  '0977123456', N'Phú Nhuận, TP HCM',   'dung.pham@mail.com'),
+    (N'Hoàng Văn Em',   '0966123456', N'Thủ Đức, TP HCM',     'em.hoang@mail.com');
 GO
 
 INSERT INTO dbo.TheVip (KhachHangID, MaThe, HangThe, TyLeGiam, NgayCap, NgayHetHan) VALUES
@@ -264,21 +264,21 @@ INSERT INTO dbo.TheVip (KhachHangID, MaThe, HangThe, TyLeGiam, NgayCap, NgayHetH
 GO
 
 INSERT INTO dbo.NhanVien (MaNV, HoTen, SoDienThoai, ChucVu) VALUES
-    ('NV001', N'Nguyen Thi Lan', '0901111001', N'Ban hang'),
-    ('NV002', N'Tran Van Khoa',  '0901111002', N'Ban hang'),
-    ('NV003', N'Le Thi Mai',     '0901111003', N'Thu ngan'),
-    ('NV004', N'Pham Van Nam',   '0901111004', N'Quan ly'),
-    ('NV005', N'Do Thi Ha',      '0901111005', N'Ban hang');
+    ('NV001', N'Nguyễn Thị Lan', '0901111001', N'Bán hàng'),
+    ('NV002', N'Trần Văn Khoa',  '0901111002', N'Bán hàng'),
+    ('NV003', N'Lê Thị Mai',     '0901111003', N'Thu ngân'),
+    ('NV004', N'Phạm Văn Nam',   '0901111004', N'Quản lý'),
+    ('NV005', N'Đỗ Thị Hà',      '0901111005', N'Bán hàng');
 GO
 
 INSERT INTO dbo.HoaDon
     (SoHoaDon, KhachHangID, NhanVienID, NgayBan, HinhThucThanhToan, ChienLuocTinhTien, TyLeGiamApDung, GhiChu)
 VALUES
     ('HD001', 1, 1, '20261102', N'TIEN_MAT',      'NIEM_YET',       0,  NULL),
-    ('HD002', 2, 2, '20261105', N'CHUYEN_KHOAN',  'GIAM_PHAN_TRAM', 10, N'Giam 10 phan tram theo chuong trinh'),
-    ('HD003', 3, 1, '20261110', N'THE',           'KHACH_VIP',      15, N'Khach kim cuong, giam dung 15% tren the'),
+    ('HD002', 2, 2, '20261105', N'CHUYEN_KHOAN',  'GIAM_PHAN_TRAM', 10, N'Giảm 10 phần trăm theo chương trình'),
+    ('HD003', 3, 1, '20261110', N'THE',           'KHACH_VIP',      15, N'Khách kim cương, giảm đúng 15% trên thẻ'),
     ('HD004', 1, 3, '20261115', N'TIEN_MAT',      'GIAM_PHAN_TRAM', 10, NULL),
-    ('HD005', 5, 2, '20261118', N'CHUYEN_KHOAN',  'KHACH_VIP',      10, N'Khach vang, giam dung 10% tren the');
+    ('HD005', 5, 2, '20261118', N'CHUYEN_KHOAN',  'KHACH_VIP',      10, N'Khách vàng, giảm đúng 10% trên thẻ');
 GO
 
 INSERT INTO dbo.ChiTietHoaDon (HoaDonID, SanPhamID, SoLuong, DonGia, TyLeGiam, ThanhTien) VALUES
