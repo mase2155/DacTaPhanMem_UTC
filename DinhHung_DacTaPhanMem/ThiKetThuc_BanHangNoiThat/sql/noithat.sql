@@ -94,8 +94,12 @@ CREATE TABLE dbo.KhachHang (
     SoDienThoai  VARCHAR(15)    NOT NULL,
     DiaChi       NVARCHAR(255)  NULL,
     Email        VARCHAR(100)   NULL,
+    LoaiKH       NVARCHAR(20)   NULL,
     CONSTRAINT PK_KhachHang PRIMARY KEY (KhachHangID),
-    CONSTRAINT UQ_KhachHang_SDT UNIQUE (SoDienThoai)
+    CONSTRAINT UQ_KhachHang_SDT UNIQUE (SoDienThoai),
+    CONSTRAINT CK_KhachHang_Loai CHECK (
+        LoaiKH IS NULL OR LoaiKH IN (N'DacBiet', N'ThanThiet', N'BinhThuong')
+    )
 );
 GO
 
@@ -247,12 +251,12 @@ VALUES
     ('TU-001', N'Tủ áo 4 cánh',        4, 1, N'Gỗ công nghiệp',  N'180x200x60 cm',  N'Trắng',     7200000, 10, '20261015', NULL);
 GO
 
-INSERT INTO dbo.KhachHang (HoTen, SoDienThoai, DiaChi, Email) VALUES
-    (N'Nguyễn Văn An',  '0903123456', N'Cầu Giấy, Hà Nội',    'an.nguyen@mail.com'),
-    (N'Trần Thị Bình',  '0918234567', N'Lê Chân, Hải Phòng',  'binh.tran@mail.com'),
-    (N'Lê Văn Cường',   '0988123456', N'Hải Châu, Đà Nẵng',   NULL),
-    (N'Phạm Thị Dung',  '0977123456', N'Phú Nhuận, TP HCM',   'dung.pham@mail.com'),
-    (N'Hoàng Văn Em',   '0966123456', N'Thủ Đức, TP HCM',     'em.hoang@mail.com');
+INSERT INTO dbo.KhachHang (HoTen, SoDienThoai, DiaChi, Email, LoaiKH) VALUES
+    (N'Nguyễn Văn An',  '0903123456', N'Cầu Giấy, Hà Nội',    'an.nguyen@mail.com', N'DacBiet'),
+    (N'Trần Thị Bình',  '0918234567', N'Lê Chân, Hải Phòng',  'binh.tran@mail.com', N'ThanThiet'),
+    (N'Lê Văn Cường',   '0988123456', N'Hải Châu, Đà Nẵng',   NULL,                 N'BinhThuong'),
+    (N'Phạm Thị Dung',  '0977123456', N'Phú Nhuận, TP HCM',   'dung.pham@mail.com', NULL),
+    (N'Hoàng Văn Em',   '0966123456', N'Thủ Đức, TP HCM',     'em.hoang@mail.com',  N'ThanThiet');
 GO
 
 INSERT INTO dbo.TheVip (KhachHangID, MaThe, HangThe, TyLeGiam, NgayCap, NgayHetHan) VALUES

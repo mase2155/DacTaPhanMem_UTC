@@ -16,4 +16,9 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Form_Discount\" />
+    <Folder Include="Strategy_Discount\" />
+  </ItemGroup>
+
 </Project>
